@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HousingLoanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HousingLoanAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* HousingLoanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HousingLoanViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* HousingLoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HousingLoanViewController.m */; };
+		9D0786A3130A6B1B00B0149D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869A130A6B1A00B0149D /* bg.png */; };
+		9D0786A4130A6B1B00B0149D /* btn2-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869B130A6B1A00B0149D /* btn2-down.png */; };
+		9D0786A5130A6B1B00B0149D /* btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869C130A6B1A00B0149D /* btn2.png */; };
+		9D0786A6130A6B1B00B0149D /* btn3-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869D130A6B1A00B0149D /* btn3-down.png */; };
+		9D0786A7130A6B1B00B0149D /* btn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869E130A6B1A00B0149D /* btn3.png */; };
+		9D0786A8130A6B1B00B0149D /* key-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D07869F130A6B1A00B0149D /* key-down.png */; };
+		9D0786A9130A6B1B00B0149D /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0786A0130A6B1A00B0149D /* key.png */; };
+		9D0786AA130A6B1B00B0149D /* nav-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0786A1130A6B1A00B0149D /* nav-down.png */; };
+		9D0786AB130A6B1B00B0149D /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0786A2130A6B1B00B0149D /* nav.png */; };
+		9D2E560D130B68D900BD2D0A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2E560C130B68D900BD2D0A /* icon.png */; };
+		9D7AF3DC1309016F00B779F4 /* FloorPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AF3DB1309016F00B779F4 /* FloorPriceView.m */; };
+		9D85B046130632980014DE4D /* HouseTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B045130632980014DE4D /* HouseTypeView.m */; };
+		9D85B090130662820014DE4D /* TotalPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B08F130662820014DE4D /* TotalPaymentView.m */; };
+		9D85B092130662C10014DE4D /* TotalPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D85B091130662C10014DE4D /* TotalPaymentView.xib */; };
+		9D85B095130663AA0014DE4D /* DownPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D85B094130663AA0014DE4D /* DownPaymentView.xib */; };
+		9D85B097130663B70014DE4D /* MonthlyPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D85B096130663B70014DE4D /* MonthlyPaymentView.xib */; };
+		9D85B09B130663F40014DE4D /* DownPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B09A130663F40014DE4D /* DownPaymentView.m */; };
+		9D85B09F130664960014DE4D /* MonthlyPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B09E130664960014DE4D /* MonthlyPaymentView.m */; };
+		9D85B1971306821A0014DE4D /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B18D1306821A0014DE4D /* ioapi.c */; };
+		9D85B1981306821A0014DE4D /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B18F1306821A0014DE4D /* mztools.c */; };
+		9D85B1991306821A0014DE4D /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B1911306821A0014DE4D /* unzip.c */; };
+		9D85B19A1306821A0014DE4D /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B1931306821A0014DE4D /* zip.c */; };
+		9D85B19B1306821A0014DE4D /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B1961306821A0014DE4D /* ZipArchive.mm */; };
+		9D85B19F130682880014DE4D /* HousingLoanUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D85B19E130682880014DE4D /* HousingLoanUtils.m */; };
+		9D85B1A7130684E80014DE4D /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D85B1A6130684E80014DE4D /* libz.1.2.3.dylib */; };
+		9D85B25313068E070014DE4D /* defaults.zip in Resources */ = {isa = PBXBuildFile; fileRef = 9D85B25213068E070014DE4D /* defaults.zip */; };
+		9D879BCA130A7E690076EF9B /* btn1-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879BC8130A7E690076EF9B /* btn1-down.png */; };
+		9D879BCB130A7E690076EF9B /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879BC9130A7E690076EF9B /* btn1.png */; };
+		9D93838B1304D40F009EFD6E /* TabItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D93838A1304D40F009EFD6E /* TabItemView.m */; };
+		9DF57EAE130B65E6002BBEBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DF57EAD130B65E6002BBEBF /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HousingLoanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousingLoanAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HousingLoanAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousingLoanAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HousingLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HousingLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* HousingLoanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HousingLoanViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* HousingLoanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousingLoanViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* HousingLoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousingLoanViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* HousingLoan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousingLoan_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HousingLoan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HousingLoan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9D07869A130A6B1A00B0149D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9D07869B130A6B1A00B0149D /* btn2-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn2-down.png"; sourceTree = "<group>"; };
+		9D07869C130A6B1A00B0149D /* btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2.png; sourceTree = "<group>"; };
+		9D07869D130A6B1A00B0149D /* btn3-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn3-down.png"; sourceTree = "<group>"; };
+		9D07869E130A6B1A00B0149D /* btn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn3.png; sourceTree = "<group>"; };
+		9D07869F130A6B1A00B0149D /* key-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-down.png"; sourceTree = "<group>"; };
+		9D0786A0130A6B1A00B0149D /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		9D0786A1130A6B1A00B0149D /* nav-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-down.png"; sourceTree = "<group>"; };
+		9D0786A2130A6B1B00B0149D /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		9D2E560C130B68D900BD2D0A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9D7AF3DA1309016F00B779F4 /* FloorPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorPriceView.h; sourceTree = "<group>"; };
+		9D7AF3DB1309016F00B779F4 /* FloorPriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorPriceView.m; sourceTree = "<group>"; };
+		9D85B044130632980014DE4D /* HouseTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseTypeView.h; sourceTree = "<group>"; };
+		9D85B045130632980014DE4D /* HouseTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseTypeView.m; sourceTree = "<group>"; };
+		9D85B08E130662820014DE4D /* TotalPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalPaymentView.h; sourceTree = "<group>"; };
+		9D85B08F130662820014DE4D /* TotalPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalPaymentView.m; sourceTree = "<group>"; };
+		9D85B091130662C10014DE4D /* TotalPaymentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalPaymentView.xib; sourceTree = "<group>"; };
+		9D85B094130663AA0014DE4D /* DownPaymentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownPaymentView.xib; sourceTree = "<group>"; };
+		9D85B096130663B70014DE4D /* MonthlyPaymentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthlyPaymentView.xib; sourceTree = "<group>"; };
+		9D85B099130663F40014DE4D /* DownPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownPaymentView.h; sourceTree = "<group>"; };
+		9D85B09A130663F40014DE4D /* DownPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownPaymentView.m; sourceTree = "<group>"; };
+		9D85B09D130664960014DE4D /* MonthlyPaymentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyPaymentView.h; sourceTree = "<group>"; };
+		9D85B09E130664960014DE4D /* MonthlyPaymentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyPaymentView.m; sourceTree = "<group>"; };
+		9D85B18C1306821A0014DE4D /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		9D85B18D1306821A0014DE4D /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		9D85B18E1306821A0014DE4D /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		9D85B18F1306821A0014DE4D /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		9D85B1901306821A0014DE4D /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		9D85B1911306821A0014DE4D /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		9D85B1921306821A0014DE4D /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		9D85B1931306821A0014DE4D /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		9D85B1941306821A0014DE4D /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		9D85B1951306821A0014DE4D /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		9D85B1961306821A0014DE4D /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		9D85B19D130682880014DE4D /* HousingLoanUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousingLoanUtils.h; sourceTree = "<group>"; };
+		9D85B19E130682880014DE4D /* HousingLoanUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousingLoanUtils.m; sourceTree = "<group>"; };
+		9D85B1A6130684E80014DE4D /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		9D85B25213068E070014DE4D /* defaults.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = defaults.zip; path = Resources/defaults.zip; sourceTree = "<group>"; };
+		9D879BC8130A7E690076EF9B /* btn1-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn1-down.png"; sourceTree = "<group>"; };
+		9D879BC9130A7E690076EF9B /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
+		9D9383891304D40F009EFD6E /* TabItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabItemView.h; sourceTree = "<group>"; };
+		9D93838A1304D40F009EFD6E /* TabItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabItemView.m; sourceTree = "<group>"; };
+		9DF57EAD130B65E6002BBEBF /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				9D85B1A7130684E80014DE4D /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D85B18A1306821A0014DE4D /* ZipArchive */,
+				9D9383871304D250009EFD6E /* Components */,
+				1D3623240D0F684500981E51 /* HousingLoanAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HousingLoanAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* HousingLoanViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* HousingLoanViewController.m */,
+				9D85B19D130682880014DE4D /* HousingLoanUtils.h */,
+				9D85B19E130682880014DE4D /* HousingLoanUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HousingLoan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* HousingLoan_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D078699130A6B1A00B0149D /* Images */,
+				9D85B25213068E070014DE4D /* defaults.zip */,
+				8D1107310486CEB800E47090 /* HousingLoan-Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2899E5210DE3E06400AC0155 /* HousingLoanViewController.xib */,
+				9D85B091130662C10014DE4D /* TotalPaymentView.xib */,
+				9D85B094130663AA0014DE4D /* DownPaymentView.xib */,
+				9D85B096130663B70014DE4D /* MonthlyPaymentView.xib */,
+				9DF57EAD130B65E6002BBEBF /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				9D85B1A6130684E80014DE4D /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D078699130A6B1A00B0149D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D2E560B130B68D900BD2D0A /* icon */,
+				9D879BC8130A7E690076EF9B /* btn1-down.png */,
+				9D879BC9130A7E690076EF9B /* btn1.png */,
+				9D07869A130A6B1A00B0149D /* bg.png */,
+				9D07869B130A6B1A00B0149D /* btn2-down.png */,
+				9D07869C130A6B1A00B0149D /* btn2.png */,
+				9D07869D130A6B1A00B0149D /* btn3-down.png */,
+				9D07869E130A6B1A00B0149D /* btn3.png */,
+				9D07869F130A6B1A00B0149D /* key-down.png */,
+				9D0786A0130A6B1A00B0149D /* key.png */,
+				9D0786A1130A6B1A00B0149D /* nav-down.png */,
+				9D0786A2130A6B1B00B0149D /* nav.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		9D2E560B130B68D900BD2D0A /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				9D2E560C130B68D900BD2D0A /* icon.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		9D85B18A1306821A0014DE4D /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				9D85B18B1306821A0014DE4D /* minizip */,
+				9D85B1951306821A0014DE4D /* ZipArchive.h */,
+				9D85B1961306821A0014DE4D /* ZipArchive.mm */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		9D85B18B1306821A0014DE4D /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				9D85B18C1306821A0014DE4D /* crypt.h */,
+				9D85B18D1306821A0014DE4D /* ioapi.c */,
+				9D85B18E1306821A0014DE4D /* ioapi.h */,
+				9D85B18F1306821A0014DE4D /* mztools.c */,
+				9D85B1901306821A0014DE4D /* mztools.h */,
+				9D85B1911306821A0014DE4D /* unzip.c */,
+				9D85B1921306821A0014DE4D /* unzip.h */,
+				9D85B1931306821A0014DE4D /* zip.c */,
+				9D85B1941306821A0014DE4D /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		9D9383871304D250009EFD6E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9D9383891304D40F009EFD6E /* TabItemView.h */,
+				9D93838A1304D40F009EFD6E /* TabItemView.m */,
+				9D85B044130632980014DE4D /* HouseTypeView.h */,
+				9D85B045130632980014DE4D /* HouseTypeView.m */,
+				9D7AF3DA1309016F00B779F4 /* FloorPriceView.h */,
+				9D7AF3DB1309016F00B779F4 /* FloorPriceView.m */,
+				9D85B08E130662820014DE4D /* TotalPaymentView.h */,
+				9D85B08F130662820014DE4D /* TotalPaymentView.m */,
+				9D85B099130663F40014DE4D /* DownPaymentView.h */,
+				9D85B09A130663F40014DE4D /* DownPaymentView.m */,
+				9D85B09D130664960014DE4D /* MonthlyPaymentView.h */,
+				9D85B09E130664960014DE4D /* MonthlyPaymentView.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HousingLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HousingLoan" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HousingLoan;
+			productName = HousingLoan;
+			productReference = 1D6058910D05DD3D006BFB54 /* HousingLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HousingLoan" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HousingLoan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* HousingLoanViewController.xib in Resources */,
+				9D85B092130662C10014DE4D /* TotalPaymentView.xib in Resources */,
+				9D85B095130663AA0014DE4D /* DownPaymentView.xib in Resources */,
+				9D85B097130663B70014DE4D /* MonthlyPaymentView.xib in Resources */,
+				9D85B25313068E070014DE4D /* defaults.zip in Resources */,
+				9D0786A3130A6B1B00B0149D /* bg.png in Resources */,
+				9D0786A4130A6B1B00B0149D /* btn2-down.png in Resources */,
+				9D0786A5130A6B1B00B0149D /* btn2.png in Resources */,
+				9D0786A6130A6B1B00B0149D /* btn3-down.png in Resources */,
+				9D0786A7130A6B1B00B0149D /* btn3.png in Resources */,
+				9D0786A8130A6B1B00B0149D /* key-down.png in Resources */,
+				9D0786A9130A6B1B00B0149D /* key.png in Resources */,
+				9D0786AA130A6B1B00B0149D /* nav-down.png in Resources */,
+				9D0786AB130A6B1B00B0149D /* nav.png in Resources */,
+				9D879BCA130A7E690076EF9B /* btn1-down.png in Resources */,
+				9D879BCB130A7E690076EF9B /* btn1.png in Resources */,
+				9DF57EAE130B65E6002BBEBF /* InfoPlist.strings in Resources */,
+				9D2E560D130B68D900BD2D0A /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HousingLoanAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* HousingLoanViewController.m in Sources */,
+				9D93838B1304D40F009EFD6E /* TabItemView.m in Sources */,
+				9D85B046130632980014DE4D /* HouseTypeView.m in Sources */,
+				9D85B090130662820014DE4D /* TotalPaymentView.m in Sources */,
+				9D85B09B130663F40014DE4D /* DownPaymentView.m in Sources */,
+				9D85B09F130664960014DE4D /* MonthlyPaymentView.m in Sources */,
+				9D85B1971306821A0014DE4D /* ioapi.c in Sources */,
+				9D85B1981306821A0014DE4D /* mztools.c in Sources */,
+				9D85B1991306821A0014DE4D /* unzip.c in Sources */,
+				9D85B19A1306821A0014DE4D /* zip.c in Sources */,
+				9D85B19B1306821A0014DE4D /* ZipArchive.mm in Sources */,
+				9D85B19F130682880014DE4D /* HousingLoanUtils.m in Sources */,
+				9D7AF3DC1309016F00B779F4 /* FloorPriceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HousingLoan_Prefix.pch;
+				INFOPLIST_FILE = "HousingLoan-Info.plist";
+				PRODUCT_NAME = HousingLoan;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mycolorway Design (Chengdu) Co., Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HousingLoan_Prefix.pch;
+				INFOPLIST_FILE = "HousingLoan-Info.plist";
+				PRODUCT_NAME = HousingLoan;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DBB6C020-1361-4B11-8EB4-5A3047284549";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HousingLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HousingLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,9 @@
+/* 
+   InfoPlist.strings
+   HousingLoan
+
+   Created by farthinker on 2/16/11.
+   Copyright 2011 mycolorway. All rights reserved.
+ */
+
+CFBundleDisplayName = "售楼小助手";

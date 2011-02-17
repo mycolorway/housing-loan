@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>date</key>
+	<date>2011-02-14T16:00:00Z</date>
+	<key>rate1</key>
+	<real>6.06</real>
+	<key>rate3</key>
+	<real>6.1</real>
+	<key>rate5</key>
+	<real>6.45</real>
+	<key>rate5+</key>
+	<real>6.6</real>
+</dict>
+</plist>
